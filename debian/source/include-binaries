@@ -1,2 +1,3 @@
 debian/canonical-uefi-ca.der
 debian/debian-uefi-ca.der
+debian/pexip-uefi-ca-1.der

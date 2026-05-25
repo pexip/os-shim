@@ -4,8 +4,8 @@ include /usr/share/dpkg/architecture.mk
 
 # Downstreams: add your own certs here. Only Debian binaries will be signed by this key.
 # You must generate and manage your own key if you (re)build shim, GRUB, or Linux.
-cert=debian/debian-uefi-ca.der
-distributor=debian
+cert=debian/pexip-uefi-ca-1.der
+distributor=pexip
 
 deb_version             := $(shell dpkg-parsechangelog | sed -ne "s/^Version: \(.*\)/\1/p")
 upstream_version        := $(shell echo $(deb_version) | sed -e "s/-[^-]*$$//")
