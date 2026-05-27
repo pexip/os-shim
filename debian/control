@@ -13,6 +13,7 @@ Build-Depends: debhelper-compat (= 12),
 	       libelf-dev,
 	       dos2unix,
 	       pesign (>= 0.112-5),
+	       git,
 	       efivar,
 	       xxd,
 	       libefivar-dev
