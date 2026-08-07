@@ -1,7 +1,8 @@
 Source: shim-helpers-@arch@-signed
 Section: admin
 Priority: optional
-Maintainer: Debian EFI team <debian-efi@lists.debian.org>
+Maintainer: Pexip AS <packaging@pexip.com>
+XSBC-Pexip-Original-Maintainer: Debian EFI team <debian-efi@lists.debian.org>
 Rules-Requires-Root: no
 Standards-Version: 4.3.0
 Build-Depends: debhelper (>= 10.1~),

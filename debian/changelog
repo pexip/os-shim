@@ -1,3 +1,9 @@
+shim (16.1-2+pexip25u3) pexip-trixie; urgency=medium
+
+  * Tweak the generation of the signed template file
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Fri, 07 Aug 2026 01:20:30 +0100
+
 shim (16.1-2+pexip25u2) pexip-trixie; urgency=medium
 
   * Disable NX - we don't have a complete NX boot chain here yet.
